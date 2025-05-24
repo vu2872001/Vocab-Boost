@@ -1,0 +1,144 @@
+{
+  "words": [
+    {
+      "word": "eloquent",
+      "definition": "fluent or persuasive in speaking or writing",
+      "example": "She gave an eloquent speech that moved the audience.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/eloquent-us.mp3",
+      "level": "medium"
+    },
+    {
+      "word": "paradigm",
+      "definition": "a typical example or pattern of something; a model",
+      "example": "The company is seen as a paradigm of commercial success.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/paradigm-us.mp3",
+      "level": "hard"
+    },
+    {
+      "word": "cognizant",
+      "definition": "having knowledge or awareness",
+      "example": "The team was cognizant of the risks involved in the project.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/cognizant-us.mp3",
+      "level": "hard"
+    },
+    {
+      "word": "ubiquitous",
+      "definition": "present, appearing, or found everywhere",
+      "example": "Mobile phones have become ubiquitous in modern society.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/ubiquitous-us.mp3",
+      "level": "hard"
+    },
+    {
+      "word": "ephemeral",
+      "definition": "lasting for a very short time",
+      "example": "The ephemeral nature of fashion trends makes them difficult to follow.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/ephemeral-us.mp3",
+      "level": "hard"
+    },
+    {
+      "word": "ambiguous",
+      "definition": "open to more than one interpretation; not having one obvious meaning",
+      "example": "His response to the question was ambiguous and left everyone confused.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/ambiguous-us.mp3",
+      "level": "medium"
+    },
+    {
+      "word": "meticulous",
+      "definition": "showing great attention to detail; very careful and precise",
+      "example": "She is meticulous about keeping records of all transactions.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/meticulous-us.mp3",
+      "level": "medium"
+    },
+    {
+      "word": "prolific",
+      "definition": "producing much fruit or foliage or many offspring; producing many works, results, etc.",
+      "example": "Shakespeare was a prolific writer, creating 37 plays and 154 sonnets.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/prolific-us.mp3",
+      "level": "medium"
+    },
+    {
+      "word": "pragmatic",
+      "definition": "dealing with things sensibly and realistically in a way that is based on practical considerations",
+      "example": "We need a pragmatic approach to solving this problem.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/pragmatic-us.mp3",
+      "level": "medium"
+    },
+    {
+      "word": "quintessential",
+      "definition": "representing the most perfect or typical example of a quality or class",
+      "example": "The film is considered the quintessential example of 1980s action movies.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/quintessential-us.mp3",
+      "level": "hard"
+    },
+    {
+      "word": "benevolent",
+      "definition": "well meaning and kindly",
+      "example": "A benevolent smile crossed her face as she handed out gifts to the children.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/benevolent-us.mp3",
+      "level": "medium"
+    },
+    {
+      "word": "venerable",
+      "definition": "accorded a great deal of respect, especially because of age, wisdom, or character",
+      "example": "The venerable old building had stood in the town center for over 300 years.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/venerable-us.mp3",
+      "level": "hard"
+    },
+    {
+      "word": "serendipity",
+      "definition": "the occurrence and development of events by chance in a happy or beneficial way",
+      "example": "Finding that rare book while looking for something else was pure serendipity.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/serendipity-us.mp3",
+      "level": "hard"
+    },
+    {
+      "word": "esoteric",
+      "definition": "intended for or likely to be understood by only a small number of people with a specialized knowledge or interest",
+      "example": "The professor's lecture was full of esoteric terms that confused many students.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/esoteric-us.mp3",
+      "level": "hard"
+    },
+    {
+      "word": "mellifluous",
+      "definition": "sweet or musical; pleasant to hear",
+      "example": "Her mellifluous voice made the lullaby even more soothing.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/mellifluous-us.mp3",
+      "level": "hard"
+    },
+    {
+      "word": "appreciate",
+      "definition": "to recognize the full worth of something",
+      "example": "I really appreciate your help with this project.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/appreciate-us.mp3",
+      "level": "easy"
+    },
+    {
+      "word": "beneficial",
+      "definition": "resulting in good; favorable or helpful",
+      "example": "Regular exercise is beneficial for your health.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/beneficial-us.mp3",
+      "level": "easy"
+    },
+    {
+      "word": "confidence",
+      "definition": "the feeling or belief that one can rely on someone or something; firm trust",
+      "example": "She has great confidence in her abilities.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/confidence-us.mp3",
+      "level": "easy"
+    },
+    {
+      "word": "diligent",
+      "definition": "having or showing care and conscientiousness in one's work or duties",
+      "example": "He was a diligent student who always completed his homework on time.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/diligent-us.mp3",
+      "level": "easy"
+    },
+    {
+      "word": "enhance",
+      "definition": "to increase or improve in value, quality, desirability, or attractiveness",
+      "example": "The new features enhance the user experience of the app.",
+      "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/enhance-us.mp3",
+      "level": "easy"
+    }
+  ]
+}

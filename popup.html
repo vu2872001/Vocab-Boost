@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Vocabulary Helper</title>
+  <link rel="stylesheet" href="styles/popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>English Vocabulary Helper</h1>
+      <div class="level-selector">
+        <label for="levelSelect">Difficulty Level:</label>
+        <select id="levelSelect">
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+      </div>
+      <div class="progress-container">
+        <div class="progress-text">Word Progress: <span id="wordCount">0</span>/100</div>
+        <div class="progress-bar">
+          <div class="progress" id="progressBar"></div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="date-display" id="currentDate">Today's Words - April 24, 2025</div>
+      
+      <div id="wordsList" class="words-container">
+        <!-- Words will be populated here by JavaScript -->
+        <div class="loading">Loading today's words...</div>
+      </div>
+    </main>
+
+    <footer>
+      <button id="historyBtn" class="btn primary">View History</button>
+      <button id="settingsBtn" class="btn secondary">Settings</button>
+    </footer>
+  </div>
+
+  <!-- Modal for milestone celebrations -->
+  <div id="milestoneModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Congratulations! 🎉</h2>
+      <p>You've learned <span id="milestoneCount">100</span> words!</p>
+      <div id="milestoneWordsList" class="milestone-words">
+        <!-- Milestone words will be populated here -->
+      </div>
+      <button id="reviewMilestoneBtn" class="btn primary">Review All Words</button>
+    </div>
+  </div>
+
+  <!-- History view -->
+  <div id="historyView" class="history-view">
+    <div class="history-container">
+      <h2>Learning History</h2>
+      <div class="filter-container">
+        <label for="historyLevelFilter">Filter by level:</label>
+        <select id="historyLevelFilter">
+          <option value="all">All Levels</option>
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+      </div>
+      <div class="total-words">Total Words Learned: <span id="totalWordsLearned">0</span></div>
+      
+      <div id="historyWordsList" class="history-words-list">
+        <!-- History will be populated here -->
+      </div>
+      
+      <button id="backToMainBtn" class="btn primary">Back to Words</button>
+    </div>
+  </div>
+
+  <script src="js/popup.js"></script>
+</body>
+</html>

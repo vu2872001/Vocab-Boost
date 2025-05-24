@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Vocabulary Helper - Options</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    body {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    
+    .container {
+      background-color: white;
+      border-radius: 8px;
+      padding: 30px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #2c3e50;
+      text-align: center;
+    }
+    
+    .settings-section {
+      margin-bottom: 30px;
+    }
+    
+    .settings-section h2 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      color: #3498db;
+      border-bottom: 1px solid #ecf0f1;
+      padding-bottom: 8px;
+    }
+    
+    .form-group {
+      margin-bottom: 15px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+    
+    select, input[type="number"] {
+      width: 100%;
+      padding: 8px 12px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    
+    input[type="checkbox"] {
+      margin-right: 8px;
+    }
+    
+    button {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 20px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+      display: block;
+      margin: 20px auto 0;
+    }
+    
+    button:hover {
+      background-color: #2980b9;
+    }
+    
+    .save-message {
+      text-align: center;
+      color: #27ae60;
+      margin-top: 15px;
+      font-weight: 600;
+      display: none;
+    }
+    
+    .danger-zone {
+      margin-top: 40px;
+      padding: 15px;
+      border: 1px solid #e74c3c;
+      border-radius: 4px;
+    }
+    
+    .danger-zone h3 {
+      color: #e74c3c;
+      margin-bottom: 10px;
+    }
+    
+    .danger-button {
+      background-color: #e74c3c;
+      margin-top: 15px;
+    }
+    
+    .danger-button:hover {
+      background-color: #c0392b;
+    }
+
+    .api-key-input {
+      width: 100%;
+      padding: 8px 12px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+      font-family: monospace;
+    }
+
+    .info-text {
+      font-size: 12px;
+      color: #7f8c8d;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>English Vocabulary Helper - Settings</h1>
+    
+    <div class="settings-section">
+      <h2>Display Settings</h2>
+      <div class="form-group">
+        <label for="wordsPerDay">Words Per Day</label>
+        <input type="number" id="wordsPerDay" min="1" max="10" value="5">
+        <p class="info-text">Set how many new words you want to learn each day (1-10)</p>
+      </div>
+      
+      <div class="form-group">
+        <label for="defaultLevel">Default Difficulty Level</label>
+        <select id="defaultLevel">
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+        <p class="info-text">Set your preferred difficulty level for vocabulary words</p>
+      </div>
+      
+      <div class="form-group">
+        <label>
+          <input type="checkbox" id="autoPlayAudio">
+          Auto-play pronunciation when opening a new word
+        </label>
+      </div>
+    </div>
+    
+    <div class="settings-section">
+      <h2>API Settings</h2>
+      <div class="form-group">
+        <label for="dictionaryApi">Dictionary API</label>
+        <select id="dictionaryApi">
+          <option value="local">Local Dataset (No API Key Required)</option>
+          <option value="wordsapi">WordsAPI</option>
+          <option value="oxford">Oxford Dictionaries API</option>
+        </select>
+      </div>
+      
+      <div class="form-group" id="apiKeyContainer" style="display: none;">
+        <label for="apiKey">API Key</label>
+        <input type="text" id="apiKey" class="api-key-input" placeholder="Enter your API key here">
+        <p class="info-text">Your API key is stored locally and is only used to fetch vocabulary data.</p>
+      </div>
+    </div>
+    
+    <div class="settings-section">
+      <h2>Data Synchronization</h2>
+      <div class="form-group">
+        <label>
+          <input type="checkbox" id="syncData" checked>
+          Sync learning history across devices (using Chrome Sync)
+        </label>
+        <p class="info-text">If disabled, your learning history will only be saved on this device.</p>
+      </div>
+    </div>
+    
+    <button id="saveSettings">Save Settings</button>
+    <div id="saveMessage" class="save-message">Settings saved successfully!</div>
+    
+    <div class="danger-zone">
+      <h3>Danger Zone</h3>
+      <p>The following actions cannot be undone. Be careful!</p>
+      
+      <button id="resetProgress" class="danger-button">Reset Learning Progress</button>
+    </div>
+  </div>
+  
+  <script src="js/options.js"></script>
+</body>
+</html>

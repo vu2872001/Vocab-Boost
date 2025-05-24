@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "English Vocabulary Helper",
+  "version": "1.0.0",
+  "description": "Learn English vocabulary with daily words, pronunciations, examples, and track your progress",
+  "permissions": ["storage", "alarms"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/icon.png"
+  },
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "options_page": "options.html",
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  }
+}
